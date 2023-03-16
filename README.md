@@ -1,5 +1,7 @@
 # Vits-video2txt-preprocess
 Vits video2txt preprocess
+# Whats the impact
+Generate datasets based on links, use VITS model train your data.
 # How to start
 add the link of video in links.txt 
 cd VITS-video2txt and run download_video.py
