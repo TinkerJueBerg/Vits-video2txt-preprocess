@@ -3,12 +3,13 @@ Vits video2txt preprocess
 # Whats the impact
 Generate datasets based on links, use VITS model train your data.
 # How to start
-add the link of video in links.txt <br>
+**add the link of video in links.txt** <br>
+```
 download video <br>
-`cd VITS-video2txt and run download_video.py` <br>
+cd VITS-video2txt and run download_video.py` <br>
 output traintext & trainwaves 
-`python long_audio_transcribe.py --languages C --whisper_size large`   <br>
-
+python long_audio_transcribe.py --languages C --whisper_size large`   <br>
+```
 
 # train
 ```cd ..  <br>
