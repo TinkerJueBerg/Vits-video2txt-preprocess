@@ -16,7 +16,7 @@ python long_audio_transcribe.py --languages C --whisper_size large
 # goto the index
 cd ..  <br>
 cd vits-main  <br>
-split the train&test data`  
+split the train&test data
 # preprocess txt file to .cleaned
 python preprocess.py --text_index 2 --filelists path/to/train.txt path/to/test.txt  
 # train model
