@@ -12,8 +12,12 @@ python long_audio_transcribe.py --languages C --whisper_size large`   <br>
 ```
 
 # train
-```cd ..  <br>
+```
+# goto the index
+cd ..  <br>
 cd vits-main  <br>
 split the train&test data`  <br>
-python preprocess.py --text_index 2 --filelists path/to/train.txt path/to/test.txt  <br>  # preprocess txt file to .cleaned
-python train_ms.py -c {path/to/config} -m {path/to/pth} # train model``` <br>
+# preprocess txt file to .cleaned
+python preprocess.py --text_index 2 --filelists path/to/train.txt path/to/test.txt  <br>  
+# train model
+python train_ms.py -c {path/to/config} -m {path/to/pth} ``` <br>
