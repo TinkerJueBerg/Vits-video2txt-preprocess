@@ -23,4 +23,4 @@ split the train&test data
 python preprocess.py --text_index 2 --filelists path/to/train.txt path/to/test.txt  
 
 # train model
-python train_ms.py -c {path/to/config} -m {path/to/pth} ``` <br>
+python train_ms.py -c {path/to/config} -m {path/to/pth} ``` 
