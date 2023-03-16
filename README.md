@@ -9,8 +9,8 @@ add the link of video in links.txt <br>
 # output
 traintext & trainwaves 
 # train
-`cd ..`  <br>
+```cd ..  <br>
 `cd vits-main`  <br>
 `split the train&test data`  <br>
 `python preprocess.py --text_index 2 --filelists path/to/train.txt path/to/test.txt`  <br>
-`python train_ms.py -c {path/to/config} -m {path/to/pth}` <br>
+python train_ms.py -c {path/to/config} -m {path/to/pth}``` <br>
