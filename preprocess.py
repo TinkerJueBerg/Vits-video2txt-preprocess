@@ -18,7 +18,6 @@ raw_audio_dir = "./raw_audio/"
 denoise_audio_dir = "./denoised_audio/"
 demucs_audio_dir = "./demucs/"
 
-
 # download video
 class downloadVideo(object):
 
